@@ -1,4 +1,4 @@
-import { title } from 'process'
+
 import React from 'react'
 interface propsType{
     title:string;
@@ -7,7 +7,7 @@ interface propsType{
 const Heading: React.FC<propsType> = ({title}) => {
   return (
     <div className='text-center text-4xl pb-0'>
-        <p className='border-b-4 inline-block pb-2'>title</p>
+        <p className='border-b-4 inline-block pb-2'>{title}</p>
       
     </div>
   )
